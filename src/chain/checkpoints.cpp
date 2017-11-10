@@ -5,12 +5,12 @@
 #include "checkpoints.h"
 
 #include "chainparams.h"
-#include "key.h"
-#include "main.h"
-#include "pubkey.h"
-#include "timedata.h"
-#include "txdb.h"
-#include "uint256.h"
+#include "../key.h"
+#include "../main.h"
+#include "../pubkey.h"
+#include "../timedata.h"
+#include "../txdb.h"
+#include "../uint256.h"
 
 #include <stdint.h>
 

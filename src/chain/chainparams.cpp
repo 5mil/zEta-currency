@@ -5,9 +5,9 @@
 
 #include "chainparams.h"
 
-#include "random.h"
-#include "util.h"
-#include "utilstrencodings.h"
+#include "../random.h"
+#include "../util.h"
+#include "../utilstrencodings.h"
 
 #include <assert.h>
 

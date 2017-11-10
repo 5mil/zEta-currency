@@ -6,11 +6,11 @@
 #ifndef BITCOIN_CHAIN_H
 #define BITCOIN_CHAIN_H
 
-#include "primitives/block.h"
-#include "pow.h"
-#include "tinyformat.h"
-#include "uint256.h"
-#include "utilmoneystr.h"
+#include "../primitives/block.h"
+#include "../pow.h"
+#include "../tinyformat.h"
+#include "../uint256.h"
+#include "../utilmoneystr.h"
 
 #include <vector>
 
