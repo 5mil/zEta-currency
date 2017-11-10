@@ -1,0 +1,7 @@
+contrib/debian/snc usr/bin
+contrib/debian/sprouts.conf var/lib/emc/.sprouts
+contrib/debian/sprtsd.service lib/systemd/system
+contrib/debian/sprtsd.logrotate etc/logrotate.d
+usr/local/bin/sprtsd usr/bin
+usr/local/bin/sprts-cli usr/bin
+usr/local/bin/sprts-tx usr/bin

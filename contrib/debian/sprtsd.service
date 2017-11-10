@@ -1,0 +1,14 @@
+[Unit]
+Description=Sprouts Wallet
+After=network.target
+
+[Service]
+Type=forking
+User=emc
+ExecStart=/usr/bin/sprtsd -daemon -datadir=/var/lib/emc/.sprouts -conf=/var/lib/emc/.sprouts/sprouts.conf -pid=/var/lib/emc/.sprouts/sprtsd.pid
+ExecStop=/usr/bin/sprts-cli -datadir=/var/lib/snc/.sprouts stop
+PIDFile=/var/lib/snc/.sprouts/sprtsd.pid
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

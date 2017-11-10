@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+. /usr/share/debconf/confmodule
+
+case "$1" in
+  remove|deconfigure|abort-install)
+    rm -f /var/tmp/sprouts-install.flag
+    pkill -9 -u snc > /dev/null 2>&1 || true
+    getent passwd snc >/dev/null && userdel snc >/dev/null 2>&1 || true
+    rm -f /etc/ssl/snc/sprouts.key /etc/ssl/snc/sprouts.crt /etc/sprouts/sprouts.conf /etc/sprouts/certs
+  ;;
+esac
+
+exit 0

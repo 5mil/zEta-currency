@@ -1,0 +1,22 @@
+[Unit]
+Description=Sprouts's distributed currency daemon
+After=network.target
+
+[Service]
+User=Sprouts
+Group=Sprouts
+
+Type=forking
+PIDFile=/var/lib/sprtsd/sprtsd.pid
+ExecStart=/usr/bin/sprtsd -daemon -pid=/var/lib/sprtsd/sprtsd.pid \
+-conf=/etc/sprouts/sprouts.conf -datadir=/var/lib/sprtsd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

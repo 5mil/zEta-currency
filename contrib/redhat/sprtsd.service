@@ -1,0 +1,15 @@
+[Unit]
+Description=Sprouts Wallet
+After=network.target
+
+[Service]
+Type=forking
+User=snc
+ExecStart=/usr/bin/sprtsd -daemon -datadir=/var/lib/snc/.sprouts -conf=/var/lib/snc/.sprouts/sprouts.conf -pid=/var/lib/snc/.sprouts/sprtsd.pid
+ExecStop=/usr/bin/sprts-cli -datadir=/var/lib/snc/.sprouts stop
+ExecReload=/usr/bin/kill -HUP $MAINPID
+PIDFile=/var/lib/snc/.sprouts/sprtsd.pid
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

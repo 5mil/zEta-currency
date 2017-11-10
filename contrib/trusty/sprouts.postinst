@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -e
+. /usr/share/debconf/confmodule
+
+case "$1" in
+  configure)
+    sed -i -e "s/\(^rpcpassword=MySuperPassword\)\(.*\)/rpcpassword=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)/" /var/lib/snc/.emercoin/emercoin.conf
+    chmod 600 /var/lib/snc/.sprouts/sprouts.conf
+    chown -R snc.snc /var/lib/snc/.sprouts /usr/bin/sprts-cli
+    chmod 4750 /usr/bin/sprts-cli
+    mkdir -p /etc/sprouts
+    ln -sf /var/lib/snc/.sprouts/sprouts.conf /etc/sprouts/sprouts.conf || true
+    ln -sf /etc/ssl/snc /etc/sprouts/certs || true
+    [ -f /var/tmp/sprouts-install.flag ] && {
+      rm -f /var/tmp/sprouts-install.flag
+      update-rc.d sprtsd defaults
+    }
+    service sprtsd status >/dev/null && service sprtsd restart >/dev/null
+  ;;
+esac
+
+exit 0

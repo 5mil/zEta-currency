@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -e
+. /usr/share/debconf/confmodule
+
+case "$1" in
+  install)
+    getent passwd snc >/dev/null || {
+      groupadd -r snc && useradd -r -m -d /var/lib/snc -k /dev/null -s /bin/false -g snc snc
+    }
+    [ ! -f /etc/ssl/snc/sprouts.key ] || [ ! -f /etc/ssl/snc/sprouts.crt ] && {
+      mkdir -p /etc/ssl/snc
+      openssl req -nodes -x509 -newkey rsa:4096 -keyout /etc/ssl/snc/sprouts.key -out /etc/ssl/snc/sprouts.crt -days 3560 -subj /C=CY/L=Nicosia/O=Sprouts/CN=sprouts.local >/dev/null 2>&1
+      chown snc.snc /etc/ssl/snc/sprouts.key /etc/ssl/snc/sprouts.crt
+      chmod 600 /etc/ssl/snc/sprouts.key
+    }
+    touch /var/tmp/sprouts-install.flag
+  ;;
+esac
+
+exit 0

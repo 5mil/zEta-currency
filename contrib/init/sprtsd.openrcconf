@@ -1,0 +1,27 @@
+# /etc/conf.d/sprtsd: config file for /etc/init.d/sprtsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitcoin/bitcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sprtsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sprtsd.pid"
+
+# Where to write sprtsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sprtsd"
+
+# User and group to own sprtsd process
+#BITCOIND_USER="bitcoin"
+#BITCOIND_GROUP="bitcoin"
+
+# Path to sprtsd executable
+#BITCOIND_BIN="/usr/bin/sprtsd"
+
+# Nice value to run sprtsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
