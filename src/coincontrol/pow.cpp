@@ -5,13 +5,13 @@
 
 #include "pow.h"
 
-#include "bignum.h"
-#include "chain.h"
-#include "chainparams.h"
-#include "primitives/block.h"
+#include "../bignum.h"
+#include "../chain/chain.h"
+#include "../chain/chainparams.h"
+#include "../primitives/block.h"
 #include "auxpow.h"
-#include "uint256.h"
-#include "util.h"
+#include "../uint256.h"
+#include "../util.h"
 
 #include <algorithm>
 

@@ -4,8 +4,8 @@
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
 #include "amount.h"
-#include "primitives/block.h"
-#include "tinyformat.h"
+#include "../primitives/block.h"
+#include "../tinyformat.h"
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {

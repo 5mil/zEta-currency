@@ -7,9 +7,9 @@
 #define BITCOIN_COINS_H
 
 #include "compressor.h"
-#include "serialize.h"
-#include "uint256.h"
-#include "undo.h"
+#include "../serialize.h"
+#include "../uint256.h"
+#include "../undo.h"
 
 #include <assert.h>
 #include <stdint.h>

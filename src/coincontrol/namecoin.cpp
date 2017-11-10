@@ -1,9 +1,9 @@
 #include "namecoin.h"
-#include "script/script.h"
-#include "script/sign.h"
-#include "wallet.h"
-#include "rpcserver.h"
-#include "txdb.h"
+#include "../script/script.h"
+#include "../script/sign.h"
+#include "../wallet.h"
+#include "../rpcserver.h"
+#include "../txdb.h"
 
 #include <boost/filesystem.hpp>
 #include <boost/format.hpp>
