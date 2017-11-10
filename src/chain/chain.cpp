@@ -4,8 +4,8 @@
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
 #include "chain.h"
-#include "auxpow.h"
-#include "txdb.h"
+#include "../auxpow.h"
+#include "../txdb.h"
 
 using namespace std;
 
