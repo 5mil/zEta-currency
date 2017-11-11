@@ -6,7 +6,7 @@
 
 #include "hash.h"
 #include "../serialize.h"
-#include "../streams.h"
+#include "streams.h"
 
 using namespace std;
 

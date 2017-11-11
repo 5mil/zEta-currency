@@ -2,16 +2,16 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "base58.h"
+#include "../base58.h"
 #include "rpcserver.h"
-#include "init.h"
-#include "main.h"
-#include "script/script.h"
-#include "script/standard.h"
-#include "sync.h"
-#include "util.h"
-#include "utiltime.h"
-#include "wallet.h"
+#include "../init.h"
+#include "../main.h"
+#include "../script/script.h"
+#include "../script/standard.h"
+#include "../network/sync.h"
+#include "../util.h"
+#include "../utiltime.h"
+#include "../wallet.h"
 
 #include <fstream>
 #include <stdint.h>

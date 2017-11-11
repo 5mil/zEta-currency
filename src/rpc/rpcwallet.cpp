@@ -3,18 +3,18 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "amount.h"
-#include "base58.h"
-#include "core_io.h"
+#include "../coincontrol/amount.h"
+#include "../base58.h"
+#include "../core_io.h"
 #include "rpcserver.h"
-#include "init.h"
-#include "net.h"
-#include "netbase.h"
-#include "timedata.h"
-#include "util.h"
-#include "utilmoneystr.h"
-#include "wallet.h"
-#include "walletdb.h"
+#include "../init.h"
+#include "../network/net.h"
+#include "../network/netbase.h"
+#include "../timedata.h"
+#include "../util.h"
+#include "../utilmoneystr.h"
+#include "../wallet.h"
+#include "../walletdb.h"
 
 #include <stdint.h>
 

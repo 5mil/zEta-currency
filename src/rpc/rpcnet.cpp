@@ -4,15 +4,15 @@
 
 #include "rpcserver.h"
 
-#include "clientversion.h"
-#include "main.h"
-#include "net.h"
-#include "netbase.h"
-#include "protocol.h"
-#include "sync.h"
-#include "timedata.h"
-#include "util.h"
-#include "version.h"
+#include "../clientversion.h"
+#include "../main.h"
+#include "../network/net.h"
+#include "../network/netbase.h"
+#include "../network/protocol.h"
+#include "../network/sync.h"
+#include "../timedata.h"
+#include "../util.h"
+#include "../version.h"
 
 #include <boost/foreach.hpp>
 

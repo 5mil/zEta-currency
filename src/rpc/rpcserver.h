@@ -6,9 +6,9 @@
 #ifndef BITCOIN_RPCSERVER_H
 #define BITCOIN_RPCSERVER_H
 
-#include "amount.h"
+#include "../coincontrol/amount.h"
 #include "rpcprotocol.h"
-#include "uint256.h"
+#include "../uint256.h"
 
 #include <list>
 #include <map>

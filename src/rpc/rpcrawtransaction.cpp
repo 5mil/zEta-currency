@@ -3,20 +3,20 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "base58.h"
-#include "primitives/transaction.h"
-#include "core_io.h"
-#include "init.h"
-#include "keystore.h"
-#include "main.h"
-#include "net.h"
+#include "../base58.h"
+#include "../primitives/transaction.h"
+#include "../core_io.h"
+#include "../init.h"
+#include "../keystore.h"
+#include "../main.h"
+#include "../network/net.h"
 #include "rpcserver.h"
-#include "script/script.h"
-#include "script/sign.h"
-#include "script/standard.h"
-#include "uint256.h"
+#include "../script/script.h"
+#include "../script/sign.h"
+#include "../script/standard.h"
+#include "../uint256.h"
 #ifdef ENABLE_WALLET
-#include "wallet.h"
+#include "../wallet.h"
 #endif
 
 #include <stdint.h>

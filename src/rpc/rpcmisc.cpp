@@ -3,19 +3,19 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "alert.h"
-#include "base58.h"
-#include "clientversion.h"
-#include "init.h"
-#include "main.h"
-#include "net.h"
-#include "netbase.h"
+#include "../alert.h"
+#include "../base58.h"
+#include "../clientversion.h"
+#include "../init.h"
+#include "../main.h"
+#include "../network/net.h"
+#include "../network/netbase.h"
 #include "rpcserver.h"
-#include "timedata.h"
-#include "util.h"
+#include "../timedata.h"
+#include "../util.h"
 #ifdef ENABLE_WALLET
-#include "wallet.h"
-#include "walletdb.h"
+#include "../wallet.h"
+#include "../walletdb.h"
 #endif
 
 #include <stdint.h>

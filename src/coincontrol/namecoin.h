@@ -5,7 +5,7 @@
 #include "../base58.h"
 #include "../hooks.h"
 #include "../main.h"
-#include "../rpcprotocol.h"
+#include "../rpc/rpcprotocol.h"
 
 static const unsigned int NAMEINDEX_CHAIN_SIZE = 1000;
 static const int RELEASE_HEIGHT = 1<<16;

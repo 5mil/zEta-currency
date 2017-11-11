@@ -2,7 +2,7 @@
 #include "../script/script.h"
 #include "../script/sign.h"
 #include "../wallet.h"
-#include "../rpcserver.h"
+#include "../rpc/rpcserver.h"
 #include "../txdb.h"
 
 #include <boost/filesystem.hpp>

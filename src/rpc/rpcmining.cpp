@@ -3,21 +3,21 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "amount.h"
-#include "chainparams.h"
-#include "core_io.h"
-#include "init.h"
-#include "net.h"
-#include "main.h"
-#include "miner.h"
-#include "pow.h"
+#include "../coincontrol/amount.h"
+#include "../chain/chainparams.h"
+#include "../core_io.h"
+#include "../init.h"
+#include "../network/net.h"
+#include "../main.h"
+#include "../miner.h"
+#include "../coincontrol/pow.h"
 #include "rpcserver.h"
-#include "util.h"
-#include "timedata.h"
-#include "auxpow.h"
+#include "../util.h"
+#include "../timedata.h"
+#include "../coincontrol/auxpow.h"
 #ifdef ENABLE_WALLET
-#include "db.h"
-#include "wallet.h"
+#include "../db.h"
+#include "../wallet.h"
 #endif
 
 #include <stdint.h>
