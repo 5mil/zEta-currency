@@ -14,7 +14,7 @@
 #include "../coincontrol/amount.h"
 #include "../chain/checkpoints.h"
 #include "../compat/sanity.h"
-#include "../key.h"
+#include "../key/key.h"
 #include "../main.h"
 #include "../wallet/miner.h"
 #include "../network/net.h"

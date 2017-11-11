@@ -15,8 +15,8 @@
 #define BITCOIN_BASE58_H
 
 #include "../chain/chainparams.h"
-#include "../key.h"
-#include "../pubkey.h"
+#include "../key/key.h"
+#include "../key/pubkey.h"
 #include "../script/script.h"
 #include "../script/standard.h"
 

@@ -7,7 +7,7 @@
 #include "../primitives/transaction.h"
 #include "../core/core_io.h"
 #include "../core/init.h"
-#include "../keystore.h"
+#include "../key/keystore.h"
 #include "../main.h"
 #include "../network/net.h"
 #include "rpcserver.h"

@@ -6,7 +6,7 @@
 #include "compressor.h"
 
 #include "../network/hash.h"
-#include "../pubkey.h"
+#include "../key/pubkey.h"
 #include "../script/standard.h"
 
 bool CScriptCompressor::IsToKeyID(CKeyID &hash) const

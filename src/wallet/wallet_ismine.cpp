@@ -5,8 +5,8 @@
 
 #include "wallet_ismine.h"
 
-#include "../key.h"
-#include "../keystore.h"
+#include "../key/key.h"
+#include "../key/keystore.h"
 #include "../script/script.h"
 #include "../script/standard.h"
 #include "../core/hooks.h"

@@ -5,7 +5,7 @@
 
 #include "chainparams.h"
 
-#include "../random.h"
+#include "../network/random.h"
 #include "../wallet/util.h"
 #include "../wallet/utilstrencodings.h"
 

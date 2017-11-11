@@ -5,9 +5,9 @@
 #include "checkpoints.h"
 
 #include "chainparams.h"
-#include "../key.h"
+#include "../key/key.h"
 #include "../main.h"
-#include "../pubkey.h"
+#include "../key/pubkey.h"
 #include "../wallet/timedata.h"
 #include "../db/txdb.h"
 #include "../wallet/uint256.h"

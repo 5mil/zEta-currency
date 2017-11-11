@@ -6,9 +6,9 @@
 #ifndef BITCOIN_KEY_H
 #define BITCOIN_KEY_H
 
-#include "allocators.h"
-#include "serialize.h"
-#include "uint256.h"
+#include "../coincontrol/allocators.h"
+#include "../wallet/serialize.h"
+#include "../wallet/uint256.h"
 
 #include <stdexcept>
 #include <vector>

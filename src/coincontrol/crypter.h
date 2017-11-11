@@ -6,7 +6,7 @@
 #define BITCOIN_CRYPTER_H
 
 #include "allocators.h"
-#include "../keystore.h"
+#include "../key/keystore.h"
 #include "../wallet/serialize.h"
 
 class uint256;

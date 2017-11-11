@@ -8,7 +8,7 @@
 #include "../chain/chainparams.h"
 #include "../wallet/clientversion.h"
 #include "../network/net.h"
-#include "../pubkey.h"
+#include "../key/pubkey.h"
 #include "../wallet/timedata.h"
 #include "../wallet/ui_interface.h"
 #include "../wallet/util.h"

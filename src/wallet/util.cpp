@@ -11,7 +11,7 @@
 #include "util.h"
 
 #include "../chain/chainparamsbase.h"
-#include "../random.h"
+#include "../network/random.h"
 #include "serialize.h"
 #include "../network/sync.h"
 #include "utilstrencodings.h"

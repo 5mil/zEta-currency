@@ -6,11 +6,11 @@
 #include "random.h"
 
 #ifdef WIN32
-#include "compat.h" // for Windows API
+#include "../compat.h" // for Windows API
 #endif
-#include "serialize.h"        // for begin_ptr(vec)
-#include "util.h"             // for LogPrint()
-#include "utilstrencodings.h" // for GetTime()
+#include "../wallet/serialize.h"        // for begin_ptr(vec)
+#include "../wallet/util.h"             // for LogPrint()
+#include "../wallet/utilstrencodings.h" // for GetTime()
 
 #include <limits>
 

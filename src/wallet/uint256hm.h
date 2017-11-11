@@ -8,7 +8,7 @@
 #define EMC_UINT256HM_H
 
 #include "uint256.h"
-#include "../random.h"
+#include "../network/random.h"
 
 // Container - debug version
 template<class DATA>

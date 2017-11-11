@@ -10,12 +10,12 @@
 #include "../primitives/block.h"
 #include "../primitives/transaction.h"
 #include "../coincontrol/crypter.h"
-#include "../key.h"
-#include "../keystore.h"
+#include "../key/key.h"
+#include "../key/keystore.h"
 #include "../main.h"
 #include "ui_interface.h"
 #include "wallet_ismine.h"
-#include "walletdb.h"
+#include "../db/walletdb.h"
 
 #include <algorithm>
 #include <map>

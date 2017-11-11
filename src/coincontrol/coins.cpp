@@ -4,7 +4,7 @@
 
 #include "coins.h"
 
-#include "../random.h"
+#include "../network/random.h"
 
 #include <assert.h>
 

@@ -5,11 +5,11 @@
 
 #include "keystore.h"
 
-#include "crypter.h"
+#include "../network/crypter.h"
 #include "key.h"
-#include "script/script.h"
-#include "script/standard.h"
-#include "util.h"
+#include "../script/script.h"
+#include "../script/standard.h"
+#include "../wallet/util.h"
 
 #include <boost/foreach.hpp>
 

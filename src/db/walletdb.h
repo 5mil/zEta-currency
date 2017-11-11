@@ -8,8 +8,8 @@
 
 #include "../coincontrol/amount.h"
 #include "db.h"
-#include "../key.h"
-#include "../keystore.h"
+#include "../key/key.h"
+#include "../key/keystore.h"
 
 #include <list>
 #include <stdint.h>
