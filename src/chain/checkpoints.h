@@ -5,9 +5,9 @@
 #ifndef BITCOIN_CHECKPOINTS_H
 #define BITCOIN_CHECKPOINTS_H
 
-#include "../serialize.h"
+#include "../wallet/serialize.h"
 #include "../network/sync.h"
-#include "../uint256.h"
+#include "../wallet/uint256.h"
 
 #include <map>
 

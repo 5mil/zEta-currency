@@ -5,7 +5,7 @@
 
 #include "amount.h"
 #include "../primitives/block.h"
-#include "../tinyformat.h"
+#include "../wallet/tinyformat.h"
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {

@@ -1,18 +1,19 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2017 Sprouts developers
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoin-config.h"
+#include "config/sprouts-config.h"
 #endif
 
 #include "util.h"
 
-#include "chainparamsbase.h"
-#include "random.h"
+#include "../chain/chainparamsbase.h"
+#include "../random.h"
 #include "serialize.h"
-#include "sync.h"
+#include "../network/sync.h"
 #include "utilstrencodings.h"
 #include "utiltime.h"
 

@@ -7,7 +7,7 @@
 
 #include "allocators.h"
 #include "../keystore.h"
-#include "../serialize.h"
+#include "../wallet/serialize.h"
 
 class uint256;
 

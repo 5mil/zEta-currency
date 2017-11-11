@@ -8,7 +8,7 @@
 
 #include "../primitives/transaction.h"
 #include "../script/script.h"
-#include "../serialize.h"
+#include "../wallet/serialize.h"
 
 class CKeyID;
 class CPubKey;

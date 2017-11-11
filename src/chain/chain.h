@@ -8,9 +8,9 @@
 
 #include "../primitives/block.h"
 #include "../coincontrol/pow.h"
-#include "../tinyformat.h"
-#include "../uint256.h"
-#include "../utilmoneystr.h"
+#include "../wallet/tinyformat.h"
+#include "../wallet/uint256.h"
+#include "../wallet/utilmoneystr.h"
 
 #include <vector>
 

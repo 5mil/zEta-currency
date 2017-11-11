@@ -6,13 +6,13 @@
 #ifndef BITCOIN_WALLET_H
 #define BITCOIN_WALLET_H
 
-#include "amount.h"
-#include "primitives/block.h"
-#include "primitives/transaction.h"
-#include "crypter.h"
-#include "key.h"
-#include "keystore.h"
-#include "main.h"
+#include "../coincontrol/amount.h"
+#include "../primitives/block.h"
+#include "../primitives/transaction.h"
+#include "../coincontrol/crypter.h"
+#include "../key.h"
+#include "../keystore.h"
+#include "../main.h"
 #include "ui_interface.h"
 #include "wallet_ismine.h"
 #include "walletdb.h"

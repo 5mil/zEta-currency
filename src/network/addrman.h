@@ -9,8 +9,8 @@
 #include "protocol.h"
 #include "../random.h"
 #include "sync.h"
-#include "../timedata.h"
-#include "../util.h"
+#include "../wallet/timedata.h"
+#include "../wallet/util.h"
 
 #include <map>
 #include <set>

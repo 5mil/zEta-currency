@@ -1,7 +1,7 @@
 #include "namecoin.h"
 #include "../script/script.h"
 #include "../script/sign.h"
-#include "../wallet.h"
+#include "../wallet/wallet.h"
 #include "../rpc/rpcserver.h"
 #include "../txdb.h"
 

@@ -4,8 +4,8 @@
 
 #include "timedata.h"
 
-#include "netbase.h"
-#include "sync.h"
+#include "../network/netbase.h"
+#include "../network/sync.h"
 #include "ui_interface.h"
 #include "util.h"
 #include "utilstrencodings.h"

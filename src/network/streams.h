@@ -7,7 +7,7 @@
 #define BITCOIN_STREAMS_H
 
 #include "../coincontrol/allocators.h"
-#include "../serialize.h"
+#include "../wallet/serialize.h"
 
 #include <algorithm>
 #include <assert.h>

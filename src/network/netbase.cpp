@@ -12,9 +12,9 @@
 
 #include "hash.h"
 #include "sync.h"
-#include "../uint256.h"
-#include "../util.h"
-#include "../utilstrencodings.h"
+#include "../wallet/uint256.h"
+#include "../wallet/util.h"
+#include "../wallet/utilstrencodings.h"
 
 #ifdef HAVE_GETADDRINFO_A
 #include <netdb.h>

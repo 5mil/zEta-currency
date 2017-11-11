@@ -3,12 +3,12 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "primitives/block.h"
-#include "primitives/transaction.h"
-#include "main.h"
-#include "rpcserver.h"
-#include "streams.h"
-#include "sync.h"
+#include "../primitives/block.h"
+#include "../primitives/transaction.h"
+#include "../main.h"
+#include "../rpc/rpcserver.h"
+#include "../network/streams.h"
+#include "../network/sync.h"
 #include "utilstrencodings.h"
 #include "version.h"
 

@@ -10,7 +10,7 @@
 #include "checkpoints.h"
 #include "../primitives/block.h"
 #include "../network/protocol.h"
-#include "../uint256.h"
+#include "../wallet/uint256.h"
 
 #include <vector>
 

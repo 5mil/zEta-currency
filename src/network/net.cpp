@@ -12,9 +12,9 @@
 
 #include "addrman.h"
 #include "../chain/chainparams.h"
-#include "../clientversion.h"
+#include "../wallet/clientversion.h"
 #include "../primitives/transaction.h"
-#include "../ui_interface.h"
+#include "../wallet/ui_interface.h"
 
 #ifdef WIN32
 #include <string.h>

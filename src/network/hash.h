@@ -8,9 +8,9 @@
 
 #include "../crypto/ripemd160.h"
 #include "../crypto/sha256.h"
-#include "../serialize.h"
-#include "../uint256.h"
-#include "../version.h"
+#include "../wallet/serialize.h"
+#include "../wallet/uint256.h"
+#include "../wallet/version.h"
 
 #include <vector>
 

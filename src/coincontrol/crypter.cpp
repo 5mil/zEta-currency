@@ -6,7 +6,7 @@
 
 #include "../script/script.h"
 #include "../script/standard.h"
-#include "../util.h"
+#include "../wallet/util.h"
 
 #include <string>
 #include <vector>

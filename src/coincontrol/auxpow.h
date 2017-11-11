@@ -4,7 +4,7 @@
 #ifndef BITCOIN_AUXPOW_H
 #define BITCOIN_AUXPOW_H
 
-#include "../wallet.h"
+#include "../wallet/wallet.h"
 
 
 class CAuxPow : public CMerkleTx

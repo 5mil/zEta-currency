@@ -10,14 +10,14 @@
 #include "../compat.h"
 #include "hash.h"
 #include "../limitedmap.h"
-#include "../mruset.h"
+#include "../wallet/mruset.h"
 #include "netbase.h"
 #include "protocol.h"
 #include "../random.h"
 #include "streams.h"
 #include "sync.h"
-#include "../uint256.h"
-#include "../utilstrencodings.h"
+#include "../wallet/uint256.h"
+#include "../wallet/utilstrencodings.h"
 
 #include <deque>
 #include <stdint.h>

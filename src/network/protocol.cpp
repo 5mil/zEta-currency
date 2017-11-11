@@ -6,8 +6,8 @@
 #include "protocol.h"
 
 #include "../chain/chainparams.h"
-#include "../util.h"
-#include "../utilstrencodings.h"
+#include "../wallet/util.h"
+#include "../wallet/utilstrencodings.h"
 
 #ifndef WIN32
 # include <arpa/inet.h>

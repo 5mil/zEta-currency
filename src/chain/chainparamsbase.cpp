@@ -5,7 +5,7 @@
 
 #include "chainparamsbase.h"
 
-#include "../util.h"
+#include "../wallet/util.h"
 
 #include <assert.h>
 

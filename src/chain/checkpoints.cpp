@@ -8,9 +8,9 @@
 #include "../key.h"
 #include "../main.h"
 #include "../pubkey.h"
-#include "../timedata.h"
+#include "../wallet/timedata.h"
 #include "../txdb.h"
-#include "../uint256.h"
+#include "../wallet/uint256.h"
 
 #include <stdint.h>
 

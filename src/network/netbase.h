@@ -11,7 +11,7 @@
 #endif
 
 #include "../compat.h"
-#include "../serialize.h"
+#include "../wallet/serialize.h"
 
 #include <stdint.h>
 #include <string>

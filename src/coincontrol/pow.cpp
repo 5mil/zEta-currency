@@ -10,8 +10,8 @@
 #include "../chain/chainparams.h"
 #include "../primitives/block.h"
 #include "auxpow.h"
-#include "../uint256.h"
-#include "../util.h"
+#include "../wallet/uint256.h"
+#include "../wallet/util.h"
 
 #include <algorithm>
 

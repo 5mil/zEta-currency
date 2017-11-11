@@ -5,7 +5,7 @@
 #include "../init.h"
 #include "../primitives/block.h"
 #include "../chain/chainparams.h"
-#include "../util.h"
+#include "../wallet/util.h"
 #include "../base58.h"
 
 using namespace std;
