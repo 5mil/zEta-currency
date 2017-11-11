@@ -6,7 +6,7 @@
 #define BITCOIN_CHECKPOINTS_H
 
 #include "../serialize.h"
-#include "../sync.h"
+#include "../network/sync.h"
 #include "../uint256.h"
 
 #include <map>

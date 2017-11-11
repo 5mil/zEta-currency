@@ -6,18 +6,18 @@
 #ifndef BITCOIN_NET_H
 #define BITCOIN_NET_H
 
-#include "bloom.h"
-#include "compat.h"
+#include "../bloom.h"
+#include "../compat.h"
 #include "hash.h"
-#include "limitedmap.h"
-#include "mruset.h"
+#include "../limitedmap.h"
+#include "../mruset.h"
 #include "netbase.h"
 #include "protocol.h"
-#include "random.h"
+#include "../random.h"
 #include "streams.h"
 #include "sync.h"
-#include "uint256.h"
-#include "utilstrencodings.h"
+#include "../uint256.h"
+#include "../utilstrencodings.h"
 
 #include <deque>
 #include <stdint.h>

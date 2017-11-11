@@ -5,8 +5,8 @@
 #include "addrman.h"
 
 #include "hash.h"
-#include "serialize.h"
-#include "streams.h"
+#include "../serialize.h"
+#include "../streams.h"
 
 using namespace std;
 

@@ -9,7 +9,7 @@
 #include "chainparamsbase.h"
 #include "checkpoints.h"
 #include "../primitives/block.h"
-#include "../protocol.h"
+#include "../network/protocol.h"
 #include "../uint256.h"
 
 #include <vector>
