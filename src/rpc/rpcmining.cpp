@@ -5,8 +5,8 @@
 
 #include "../coincontrol/amount.h"
 #include "../chain/chainparams.h"
-#include "../core_io.h"
-#include "../init.h"
+#include "../core/core_io.h"
+#include "../core/init.h"
 #include "../network/net.h"
 #include "../main.h"
 #include "../wallet/miner.h"

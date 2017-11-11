@@ -5,7 +5,7 @@
 #ifndef BITCOIN_BIGNUM_H
 #define BITCOIN_BIGNUM_H
 
-#include "uint256.h"
+#include "../wallet/uint256.h"
 
 #include <algorithm>
 #include <limits>

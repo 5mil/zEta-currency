@@ -6,8 +6,8 @@
 #ifndef BITCOIN_ALERT_H
 #define BITCOIN_ALERT_H
 
-#include "serialize.h"
-#include "sync.h"
+#include "../wallet/serialize.h"
+#include "../network/sync.h"
 
 #include <map>
 #include <set>

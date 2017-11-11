@@ -5,7 +5,7 @@
 
 #include "chain.h"
 #include "../coincontrol/auxpow.h"
-#include "../txdb.h"
+#include "../db/txdb.h"
 
 using namespace std;
 

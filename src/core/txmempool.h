@@ -8,10 +8,10 @@
 
 #include <list>
 
-#include "amount.h"
-#include "coins.h"
-#include "primitives/transaction.h"
-#include "sync.h"
+#include "../coincontrol/amount.h"
+#include "../coincontrol/coins.h"
+#include "../primitives/transaction.h"
+#include "../network/sync.h"
 
 class CAutoFile;
 

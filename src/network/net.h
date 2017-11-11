@@ -6,7 +6,7 @@
 #ifndef BITCOIN_NET_H
 #define BITCOIN_NET_H
 
-#include "../bloom.h"
+#include "../core/bloom.h"
 #include "../compat.h"
 #include "hash.h"
 #include "../limitedmap.h"

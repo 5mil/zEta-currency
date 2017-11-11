@@ -5,7 +5,7 @@
 
 #include "pow.h"
 
-#include "../bignum.h"
+#include "../core/bignum.h"
 #include "../chain/chain.h"
 #include "../chain/chainparams.h"
 #include "../primitives/block.h"

@@ -9,7 +9,7 @@
 #include "../keystore.h"
 #include "../script/script.h"
 #include "../script/standard.h"
-#include "../hooks.h"
+#include "../core/hooks.h"
 
 #include <boost/foreach.hpp>
 

@@ -2,8 +2,8 @@
 #define NAMECOIN_H
 
 #include "../db/db.h"
-#include "../base58.h"
-#include "../hooks.h"
+#include "../core/base58.h"
+#include "../core/hooks.h"
 #include "../main.h"
 #include "../rpc/rpcprotocol.h"
 

@@ -5,14 +5,14 @@
 #include <boost/assign/list_of.hpp>
 
 #include "kernel.h"
-#include "db.h"
-#include "uint256hm.h"
-#include "chainparams.h"
-#include "util.h"
-#include "wallet.h"
+#include "../db/db.h"
+#include "../wallet/uint256hm.h"
+#include "../chain/chainparams.h"
+#include "../wallet/util.h"
+#include "../wallet/wallet.h"
 #include "init.h"
-#include "timedata.h"
-#include "txdb.h"
+#include "../wallet/timedata.h"
+#include "../db/txdb.h"
 
 using namespace std;
 

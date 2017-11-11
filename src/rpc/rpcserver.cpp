@@ -5,8 +5,8 @@
 
 #include "rpcserver.h"
 
-#include "../base58.h"
-#include "../init.h"
+#include "../core/base58.h"
+#include "../core/init.h"
 #include "../main.h"
 #include "../wallet/ui_interface.h"
 #include "../wallet/util.h"

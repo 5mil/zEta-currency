@@ -5,7 +5,7 @@
 
 #include "walletdb.h"
 
-#include "../base58.h"
+#include "../core/base58.h"
 #include "../network/protocol.h"
 #include "../wallet/serialize.h"
 #include "../network/sync.h"

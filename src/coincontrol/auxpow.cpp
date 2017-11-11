@@ -2,11 +2,11 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 #include "auxpow.h"
-#include "../init.h"
+#include "../core/init.h"
 #include "../primitives/block.h"
 #include "../chain/chainparams.h"
 #include "../wallet/util.h"
-#include "../base58.h"
+#include "../core/base58.h"
 
 using namespace std;
 using namespace boost;

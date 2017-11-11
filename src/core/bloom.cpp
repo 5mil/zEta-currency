@@ -4,11 +4,11 @@
 
 #include "bloom.h"
 
-#include "primitives/transaction.h"
-#include "hash.h"
-#include "script/script.h"
-#include "script/standard.h"
-#include "streams.h"
+#include "../primitives/transaction.h"
+#include "../network/hash.h"
+#include "../script/script.h"
+#include "../script/standard.h"
+#include "../network/streams.h"
 
 #include <math.h>
 #include <stdlib.h>

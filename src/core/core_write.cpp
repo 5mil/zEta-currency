@@ -5,15 +5,15 @@
 #include "core_io.h"
 
 #include "base58.h"
-#include "primitives/transaction.h"
-#include "script/script.h"
-#include "script/standard.h"
-#include "serialize.h"
-#include "streams.h"
-#include "univalue.h"
-#include "util.h"
-#include "utilmoneystr.h"
-#include "utilstrencodings.h"
+#include "../primitives/transaction.h"
+#include "../script/script.h"
+#include "../script/standard.h"
+#include "../wallet/serialize.h"
+#include "../network/streams.h"
+#include "../univalue.h"
+#include "../wallet/util.h"
+#include "../wallet/utilmoneystr.h"
+#include "../wallet/utilstrencodings.h"
 
 #include <boost/foreach.hpp>
 

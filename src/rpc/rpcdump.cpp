@@ -2,9 +2,9 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "../base58.h"
+#include "../core/base58.h"
 #include "rpcserver.h"
-#include "../init.h"
+#include "../core/init.h"
 #include "../main.h"
 #include "../script/script.h"
 #include "../script/standard.h"

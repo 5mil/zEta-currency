@@ -5,10 +5,10 @@
 
 #include "wallet.h"
 
-#include "../base58.h"
+#include "../core/base58.h"
 #include "../chain/checkpoints.h"
 #include "../coincontrol/coincontrol.h"
-#include "../kernel.h"
+#include "../core/kernel.h"
 #include "../network/net.h"
 #include "../coincontrol/namecoin.h"
 #include "../script/script.h"

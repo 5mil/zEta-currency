@@ -5,12 +5,12 @@
 
 #include "txmempool.h"
 
-#include "clientversion.h"
-#include "main.h"
-#include "streams.h"
-#include "util.h"
-#include "utilmoneystr.h"
-#include "version.h"
+#include "../wallet/clientversion.h"
+#include "../main.h"
+#include "../network/streams.h"
+#include "../wallet/util.h"
+#include "../wallet/utilmoneystr.h"
+#include "../wallet/version.h"
 
 #include <boost/circular_buffer.hpp>
 

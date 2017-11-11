@@ -4,10 +4,10 @@
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
 #include "../coincontrol/amount.h"
-#include "../base58.h"
-#include "../core_io.h"
+#include "../core/base58.h"
+#include "../core/core_io.h"
 #include "rpcserver.h"
-#include "../init.h"
+#include "../core/init.h"
 #include "../network/net.h"
 #include "../network/netbase.h"
 #include "../wallet/timedata.h"

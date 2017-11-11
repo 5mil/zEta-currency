@@ -5,13 +5,13 @@
 
 #include "alert.h"
 
-#include "chainparams.h"
-#include "clientversion.h"
-#include "net.h"
-#include "pubkey.h"
-#include "timedata.h"
-#include "ui_interface.h"
-#include "util.h"
+#include "../chain/chainparams.h"
+#include "../wallet/clientversion.h"
+#include "../network/net.h"
+#include "../pubkey.h"
+#include "../wallet/timedata.h"
+#include "../wallet/ui_interface.h"
+#include "../wallet/util.h"
 
 #include <stdint.h>
 #include <algorithm>

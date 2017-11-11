@@ -9,7 +9,7 @@
 #include "../main.h"
 #include "../pubkey.h"
 #include "../wallet/timedata.h"
-#include "../txdb.h"
+#include "../db/txdb.h"
 #include "../wallet/uint256.h"
 
 #include <stdint.h>

@@ -4,8 +4,8 @@
 
 #include "base58.h"
 
-#include "hash.h"
-#include "uint256.h"
+#include "../network/hash.h"
+#include "../wallet/uint256.h"
 
 #include <assert.h>
 #include <stdint.h>
