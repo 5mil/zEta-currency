@@ -5,12 +5,12 @@
 
 #include "rpcprotocol.h"
 
-#include "../clientversion.h"
-#include "../tinyformat.h"
-#include "../util.h"
-#include "../utilstrencodings.h"
-#include "../utiltime.h"
-#include "../version.h"
+#include "../wallet/clientversion.h"
+#include "../wallet/tinyformat.h"
+#include "../wallet/util.h"
+#include "../wallet/utilstrencodings.h"
+#include "../wallet/utiltime.h"
+#include "../wallet/version.h"
 
 #include <stdint.h>
 

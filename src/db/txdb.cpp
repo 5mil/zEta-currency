@@ -5,8 +5,8 @@
 
 #include "txdb.h"
 
-#include "pow.h"
-#include "uint256.h"
+#include "../coincontrol/pow.h"
+#include "../wallet/uint256.h"
 
 #include <stdint.h>
 

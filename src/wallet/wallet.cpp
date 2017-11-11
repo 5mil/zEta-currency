@@ -14,7 +14,7 @@
 #include "../script/script.h"
 #include "../script/sign.h"
 #include "timedata.h"
-#include "../txdb.h"
+#include "../db/txdb.h"
 #include "uint256hm.h"
 #include "util.h"
 #include "utilmoneystr.h"

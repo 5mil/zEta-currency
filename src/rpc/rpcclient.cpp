@@ -6,8 +6,8 @@
 #include "rpcclient.h"
 
 #include "rpcprotocol.h"
-#include "../util.h"
-#include "../ui_interface.h"
+#include "../wallet/util.h"
+#include "../wallet/ui_interface.h"
 
 #include <set>
 #include <stdint.h>

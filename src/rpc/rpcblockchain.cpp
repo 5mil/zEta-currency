@@ -8,7 +8,7 @@
 #include "../main.h"
 #include "rpcserver.h"
 #include "../network/sync.h"
-#include "../util.h"
+#include "../wallet/util.h"
 #include "../coincontrol/auxpow.h"
 
 #include <stdint.h>

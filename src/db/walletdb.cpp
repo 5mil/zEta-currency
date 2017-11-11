@@ -5,13 +5,13 @@
 
 #include "walletdb.h"
 
-#include "base58.h"
-#include "protocol.h"
-#include "serialize.h"
-#include "sync.h"
-#include "util.h"
-#include "utiltime.h"
-#include "wallet.h"
+#include "../base58.h"
+#include "../network/protocol.h"
+#include "../wallet/serialize.h"
+#include "../network/sync.h"
+#include "../wallet/util.h"
+#include "../wallet/utiltime.h"
+#include "../wallet/wallet.h"
 
 #include <boost/filesystem.hpp>
 #include <boost/foreach.hpp>

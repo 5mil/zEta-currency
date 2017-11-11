@@ -1,7 +1,7 @@
 #ifndef NAMECOIN_H
 #define NAMECOIN_H
 
-#include "../db.h"
+#include "../db/db.h"
 #include "../base58.h"
 #include "../hooks.h"
 #include "../main.h"

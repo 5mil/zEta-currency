@@ -8,10 +8,10 @@
 #include "../base58.h"
 #include "../init.h"
 #include "../main.h"
-#include "../ui_interface.h"
-#include "../util.h"
+#include "../wallet/ui_interface.h"
+#include "../wallet/util.h"
 #ifdef ENABLE_WALLET
-#include "../wallet.h"
+#include "../wallet/wallet.h"
 #endif
 
 #include <boost/algorithm/string.hpp>

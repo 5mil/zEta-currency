@@ -10,11 +10,11 @@
 #include "../init.h"
 #include "../network/net.h"
 #include "../network/netbase.h"
-#include "../timedata.h"
-#include "../util.h"
-#include "../utilmoneystr.h"
-#include "../wallet.h"
-#include "../walletdb.h"
+#include "../wallet/timedata.h"
+#include "../wallet/util.h"
+#include "../wallet/utilmoneystr.h"
+#include "../wallet/wallet.h"
+#include "../db/walletdb.h"
 
 #include <stdint.h>
 

@@ -8,7 +8,7 @@
 
 #include "../coincontrol/amount.h"
 #include "rpcprotocol.h"
-#include "../uint256.h"
+#include "../wallet/uint256.h"
 
 #include <list>
 #include <map>

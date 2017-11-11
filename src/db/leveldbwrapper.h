@@ -5,11 +5,11 @@
 #ifndef BITCOIN_LEVELDBWRAPPER_H
 #define BITCOIN_LEVELDBWRAPPER_H
 
-#include "clientversion.h"
-#include "serialize.h"
-#include "streams.h"
-#include "util.h"
-#include "version.h"
+#include "../wallet/clientversion.h"
+#include "../wallet/serialize.h"
+#include "../network/streams.h"
+#include "../wallet/util.h"
+#include "../wallet/version.h"
 
 #include <boost/filesystem/path.hpp>
 

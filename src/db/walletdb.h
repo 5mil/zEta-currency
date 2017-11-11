@@ -6,10 +6,10 @@
 #ifndef BITCOIN_WALLETDB_H
 #define BITCOIN_WALLETDB_H
 
-#include "amount.h"
+#include "../coincontrol/amount.h"
 #include "db.h"
-#include "key.h"
-#include "keystore.h"
+#include "../key.h"
+#include "../keystore.h"
 
 #include <list>
 #include <stdint.h>

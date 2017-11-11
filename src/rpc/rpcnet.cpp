@@ -4,15 +4,15 @@
 
 #include "rpcserver.h"
 
-#include "../clientversion.h"
+#include "../wallet/clientversion.h"
 #include "../main.h"
 #include "../network/net.h"
 #include "../network/netbase.h"
 #include "../network/protocol.h"
 #include "../network/sync.h"
-#include "../timedata.h"
-#include "../util.h"
-#include "../version.h"
+#include "../wallet/timedata.h"
+#include "../wallet/util.h"
+#include "../wallet/version.h"
 
 #include <boost/foreach.hpp>
 

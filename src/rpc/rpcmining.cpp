@@ -9,15 +9,15 @@
 #include "../init.h"
 #include "../network/net.h"
 #include "../main.h"
-#include "../miner.h"
+#include "../wallet/miner.h"
 #include "../coincontrol/pow.h"
 #include "rpcserver.h"
-#include "../util.h"
-#include "../timedata.h"
+#include "../wallet/util.h"
+#include "../wallet/timedata.h"
 #include "../coincontrol/auxpow.h"
 #ifdef ENABLE_WALLET
-#include "../db.h"
-#include "../wallet.h"
+#include "../db/db.h"
+#include "../wallet/wallet.h"
 #endif
 
 #include <stdint.h>

@@ -5,17 +5,17 @@
 
 #include "../alert.h"
 #include "../base58.h"
-#include "../clientversion.h"
+#include "../wallet/clientversion.h"
 #include "../init.h"
 #include "../main.h"
 #include "../network/net.h"
 #include "../network/netbase.h"
 #include "rpcserver.h"
-#include "../timedata.h"
-#include "../util.h"
+#include "../wallet/timedata.h"
+#include "../wallet/util.h"
 #ifdef ENABLE_WALLET
-#include "../wallet.h"
-#include "../walletdb.h"
+#include "../wallet/wallet.h"
+#include "../db/walletdb.h"
 #endif
 
 #include <stdint.h>

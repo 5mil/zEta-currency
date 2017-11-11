@@ -9,9 +9,9 @@
 #include "../script/script.h"
 #include "../script/standard.h"
 #include "../network/sync.h"
-#include "../util.h"
-#include "../utiltime.h"
-#include "../wallet.h"
+#include "../wallet/util.h"
+#include "../wallet/utiltime.h"
+#include "../wallet/wallet.h"
 
 #include <fstream>
 #include <stdint.h>

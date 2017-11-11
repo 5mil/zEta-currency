@@ -6,11 +6,11 @@
 #ifndef BITCOIN_DB_H
 #define BITCOIN_DB_H
 
-#include "clientversion.h"
-#include "serialize.h"
-#include "streams.h"
-#include "sync.h"
-#include "version.h"
+#include "../wallet/clientversion.h"
+#include "../wallet/serialize.h"
+#include "../network/streams.h"
+#include "../network/sync.h"
+#include "../wallet/version.h"
 
 #include <map>
 #include <string>

@@ -3,7 +3,7 @@
 #include "../script/sign.h"
 #include "../wallet/wallet.h"
 #include "../rpc/rpcserver.h"
-#include "../txdb.h"
+#include "../db/txdb.h"
 
 #include <boost/filesystem.hpp>
 #include <boost/format.hpp>
