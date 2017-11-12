@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2017 Sprouts developers
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
@@ -7,25 +8,25 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoin-config.h"
+#include "config/sprouts-config.h"
 #endif
 
-#include "amount.h"
-#include "chain.h"
-#include "chainparams.h"
-#include "coins.h"
+#include "coincontrol/amount.h"
+#include "chain/chain.h"
+#include "chain/chainparams.h"
+#include "coincontrol/coins.h"
 #include "primitives/block.h"
 #include "primitives/transaction.h"
-#include "net.h"
-#include "pow.h"
+#include "network/net.h"
+#include "coincontrol/pow.h"
 #include "script/script.h"
 #include "script/sigcache.h"
 #include "script/standard.h"
-#include "sync.h"
-#include "tinyformat.h"
-#include "txmempool.h"
-#include "uint256.h"
-#include "undo.h"
+#include "network/sync.h"
+#include "wallet/tinyformat.h"
+#include "core/txmempool.h"
+#include "wallet/uint256.h"
+#include "wallet/undo.h"
 
 #include <algorithm>
 #include <exception>
