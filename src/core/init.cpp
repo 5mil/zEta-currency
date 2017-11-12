@@ -29,7 +29,7 @@
 #include "../wallet/wallet.h"
 #include "../db/walletdb.h"
 #endif
-#include "../emcdns.h"
+#include "../sprdns.h"
 
 #include <stdint.h>
 #include <stdio.h>

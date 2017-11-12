@@ -4,12 +4,12 @@
 
 #include "pubkey.h"
 
-#include "../eccryptoverify.h"
+#include "../spcryptoverify.h"
 
 #ifdef USE_SECP256K1
 #include <secp256k1.h>
 #else
-#include "../ecwrapper.h"
+#include "../db/dbwrapper.h"
 #endif
 
 bool CPubKey::Verify(const uint256 &hash, const std::vector<unsigned char>& vchSig) const {

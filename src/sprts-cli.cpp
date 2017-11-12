@@ -3,12 +3,12 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "chainparamsbase.h"
-#include "clientversion.h"
-#include "rpcclient.h"
-#include "rpcprotocol.h"
-#include "util.h"
-#include "utilstrencodings.h"
+#include "chain/chainparamsbase.h"
+#include "wallet/clientversion.h"
+#include "rpc/rpcclient.h"
+#include "rpc/rpcprotocol.h"
+#include "wallet/util.h"
+#include "wallet/utilstrencodings.h"
 
 #include <boost/filesystem/operations.hpp>
 

@@ -3,13 +3,13 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "clientversion.h"
-#include "rpcserver.h"
-#include "init.h"
+#include "wallet/clientversion.h"
+#include "rpc/rpcserver.h"
+#include "core/init.h"
 #include "main.h"
-#include "noui.h"
-#include "ui_interface.h"
-#include "util.h"
+#include "wallet/noui.h"
+#include "wallet/ui_interface.h"
+#include "wallet/util.h"
 
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/filesystem.hpp>

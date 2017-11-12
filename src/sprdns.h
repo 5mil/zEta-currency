@@ -10,7 +10,7 @@
 using namespace std;
 
 
-#include "pubkey.h"
+#include "key/pubkey.h"
 
 
 #define EMCDNS_DAPSIZE     (8 * 1024)

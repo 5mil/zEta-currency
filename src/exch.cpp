@@ -1,6 +1,6 @@
 #include <exch.h>
-#include "clientversion.h"
-#include "util.h"
+#include "wallet/clientversion.h"
+#include "wallet/util.h"
 
 using namespace std;
 using namespace boost;

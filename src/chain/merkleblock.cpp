@@ -5,9 +5,9 @@
 
 #include "merkleblock.h"
 
-#include "hash.h"
-#include "primitives/block.h" // for MAX_BLOCK_SIZE
-#include "utilstrencodings.h"
+#include "../network/hash.h"
+#include "../primitives/block.h" // for MAX_BLOCK_SIZE
+#include "../wallet/utilstrencodings.h"
 
 using namespace std;
 

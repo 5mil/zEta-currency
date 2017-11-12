@@ -6,12 +6,12 @@
 
 #include "../crypto/hmac_sha512.h"
 #include "../crypto/rfc6979_hmac_sha256.h"
-#include "../eccryptoverify.h"
+#include "../spcryptoverify.h"
 #include "pubkey.h"
 #include "../network/random.h"
 
 #include <secp256k1.h>
-#include "../ecwrapper.h"
+#include "../db/dbwrapper.h"
 
 //! anonymous namespace
 namespace {

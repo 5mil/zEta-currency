@@ -2,20 +2,20 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "base58.h"
-#include "clientversion.h"
+#include "core/base58.h"
+#include "wallet/clientversion.h"
 #include "primitives/block.h" // for MAX_BLOCK_SIZE
 #include "primitives/transaction.h"
-#include "core_io.h"
-#include "coins.h"
-#include "keystore.h"
+#include "core/core_io.h"
+#include "coincontrol/coins.h"
+#include "key/keystore.h"
 #include "script/script.h"
 #include "script/sign.h"
-#include "ui_interface.h" // for _(...)
+#include "wallet/ui_interface.h" // for _(...)
 #include "univalue.h"
-#include "util.h"
-#include "utilstrencodings.h"
-#include "utilmoneystr.h"
+#include "wallet/util.h"
+#include "wallet/utilstrencodings.h"
+#include "wallet/utilmoneystr.h"
 
 #include <stdio.h>
 

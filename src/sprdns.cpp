@@ -35,10 +35,10 @@
 
 #include <ctype.h>
 
-#include "namecoin.h"
-#include "util.h"
-#include "emcdns.h"
-#include "hooks.h"
+#include "coincontrol/namecoin.h"
+#include "wallet/util.h"
+#include "sprdns.h"
+#include "core/hooks.h"
 
 /*---------------------------------------------------*/
 

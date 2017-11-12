@@ -1,7 +1,7 @@
 //#include <string>
 //#include <vector>
 
-#include "rpcprotocol.h"
+#include "rpc/rpcprotocol.h"
 
 using namespace std;
 

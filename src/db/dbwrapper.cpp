@@ -2,10 +2,10 @@
 // Distributed under the GPL3 software license, see the accompanying
 // file COPYING or http://www.gnu.org/licenses/gpl.html.
 
-#include "ecwrapper.h"
+#include "dbwrapper.h"
 
-#include "serialize.h"
-#include "uint256.h"
+#include "../wallet/serialize.h"
+#include "../wallet/uint256.h"
 
 #include <openssl/bn.h>
 #include <openssl/ecdsa.h>

@@ -12,7 +12,7 @@
 #include "chain/checkpoints.h"
 #include "chain/checkqueue.h"
 #include "core/init.h"
-#include "merkleblock.h"
+#include "chain/merkleblock.h"
 #include "network/net.h"
 #include "coincontrol/pow.h"
 #include "db/txdb.h"
