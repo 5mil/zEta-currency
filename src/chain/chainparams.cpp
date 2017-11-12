@@ -117,7 +117,7 @@ public:
 
         // ppcoin: PoS spacing = nStakeTargetSpacing
         //         PoW spacing = depends on how much PoS block are between last two PoW blocks, with maximum value = nTargetSpacingMax
-        nCoinbaseMaturity = 32;                       // coinbase transaction outputs can only be spent after this number of new blocks
+        nCoinbaseMaturity = 52;                       // coinbase transaction outputs can only be spent after this number of new blocks
         nStakeTargetSpacing = 10 * 60;                // 10 minutes
         nTargetSpacingMax = 12 * nStakeTargetSpacing; // 2 hours
         nStakeMinAge = 60 * 60 * 24 * 30;             // minimum age for coin age
@@ -304,7 +304,7 @@ public:
     CUnitTestParams() {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 6665;
+        nDefaultPort = 7335;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Unit test mode doesn't have any DNS seeds.
 

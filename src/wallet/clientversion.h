@@ -16,12 +16,12 @@
 
 //! These need to be macros, as clientversion.cpp's and bitcoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 0
-#define CLIENT_VERSION_MINOR 10
-#define CLIENT_VERSION_REVISION 4
+#define CLIENT_VERSION_MINOR 0
+#define CLIENT_VERSION_REVISION 1
 
-#define EMERCOIN_VERSION_MAJOR 0
-#define EMERCOIN_VERSION_MINOR 6
-#define EMERCOIN_VERSION_REVISION 3
+#define SPROUTS_VERSION_MAJOR 0
+#define SPROUTS_VERSION_MINOR 0
+#define SPROUTS_VERSION_REVISION 1
 
 #define CLIENT_VERSION_BUILD 1
 
@@ -64,10 +64,10 @@ static const int CLIENT_VERSION =
                          +       1 * CLIENT_VERSION_BUILD;
 
 // note: emercoin version is used for display purpose AND to accept alerts
-static const int EMERCOIN_VERSION =
-                           1000000 * EMERCOIN_VERSION_MAJOR
-                         +   10000 * EMERCOIN_VERSION_MINOR
-                         +     100 * EMERCOIN_VERSION_REVISION
+static const int SPROUTS_VERSION =
+                           1000000 * SPROUTS_VERSION_MAJOR
+                         +   10000 * SPROUTS_VERSION_MINOR
+                         +     100 * SPROUTS_VERSION_REVISION
                          +       1 * CLIENT_VERSION_BUILD;
 
 extern const std::string CLIENT_NAME;

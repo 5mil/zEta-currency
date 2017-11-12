@@ -19,7 +19,7 @@ static const CAmount SUBCENT = 100;
 static const CAmount MIN_TX_FEE = SUBCENT;
 
 /** No amount larger than this (in satoshi) is valid */
-static const CAmount MAX_MONEY = 1000000000 * COIN;
+static const CAmount MAX_MONEY = 500000000 * COIN;
 inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 /** Type-safe wrapper class to for fee rates
